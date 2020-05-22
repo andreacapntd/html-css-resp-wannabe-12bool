@@ -1,14 +1,16 @@
 /* general rules */
 [class*="col-"] {
  float: left;
+
 }
 
-.container {
+.row {
   max-width: 1170px;
   margin: 0 auto;
 }
 
-.row:after {
+
+.row::after {
   content: "";
   display: table;
   clear: both;
@@ -278,7 +280,7 @@
 
 /* desktop version */
 
-@media all and (min-width:993px) {
+@media screen and (min-width:993px) {
 
   .clear-lg {
     display: block;
@@ -300,7 +302,7 @@
     width: calc((100% / 12) * 5);
   }
   .col-lg-6 {
-    width: calc((100% / 12) * 6);
+    width: 50%;
   }
   .col-lg-7 {
     width: calc((100% / 12) * 7);
