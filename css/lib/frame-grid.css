@@ -6,7 +6,7 @@
 
 .row {
   max-width: 1170px;
-  margin: 0 auto;
+
 }
 
 
@@ -196,7 +196,7 @@
 
 /* desktop version */
 
-@media screen and (min-width:993px) {
+@media all and (min-width:993px) {
 
   .clear-lg {
     display: block;
