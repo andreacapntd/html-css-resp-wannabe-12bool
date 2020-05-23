@@ -14,16 +14,9 @@
   margin:20px 0;
 }
 
-/* debug */
-/* [class*="col-"] {
-  height: 100px;
-  background-color: red;
-  border: 1px solid black;
-} */
-
 /* lezioni */
 #lezioni {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 img {
@@ -40,6 +33,18 @@ img {
 
 #steps img {
   margin-top: 20px;
+}
+
+/* why */
+#why img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+#why .container> .col-xs-12, .col-md-12, .col-lg-12 {
+  width: 100%;
+  margin-top: 80px;
 }
 /* smartphone version */
 @media all and (max-width:768px) {
@@ -62,6 +67,10 @@ img {
   #steps img {
     margin-top: 30px;
   }
+
+  #why .container> .col-xs-12, .col-md-12, .col-lg-12 {
+    margin-top: 20px;
+  }
 }
 
 /* tablet version */
@@ -82,5 +91,8 @@ img {
     margin-top: 30px;
   }
 
+  #why .container> .col-xs-12, .col-md-12, .col-lg-12 {
+    margin-top: 25px;
+  }
 
 }
